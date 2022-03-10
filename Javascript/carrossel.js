@@ -1,5 +1,5 @@
-const imagens = document.getElementById("carrossel")
-const img = document.querySelectorAll("#carrossel img")
+const imgs = document.getElementById("imgCarrossel")
+const img = document.querySelectorAll("#imgCarrossel img")
 
 let indexC = 0
 
@@ -10,7 +10,7 @@ function carrossel() {
         indexC = 0
     }
 
-    imagens.transform = `translateX(${-indexC * 500}px)`;
+    imgs.style.transform = `translateX(${-indexC * 100}%)`;
 }
 
-setInterval(carrossel, 2222)
+setInterval(carrossel, 2500);
