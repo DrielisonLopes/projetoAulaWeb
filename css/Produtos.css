@@ -27,3 +27,12 @@ p {
     width: 24rem;
     height: 298px;
 }
+
+@media (max-width: 600px) {
+        .selectJornada {
+            display: block;
+            
+            width: 100%;
+            
+    }
+}

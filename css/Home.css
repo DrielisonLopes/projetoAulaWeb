@@ -35,3 +35,22 @@ h3 {
     box-shadow: #8F7 0 0 1em ;
     transition: 1s;
 }
+
+
+@media (max-width: 600px) {
+    h3 {
+        display: none;
+    }
+
+    .tituloHome {
+        margin: 0;
+    }
+
+    .menuDiv {
+        display: none;
+    }
+
+    .jornada {
+        width: 22rem;
+    }
+}

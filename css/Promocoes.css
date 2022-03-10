@@ -90,3 +90,14 @@ img {
     font-size: 26px;
     color:#000;
 }
+
+
+@media (max-width: 600px) {
+    .grid {
+        display: block;
+    }
+
+    .menuDiv {
+        display: none;
+    }
+}
